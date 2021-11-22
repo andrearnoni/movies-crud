@@ -15,6 +15,10 @@ const movieDeleted = () => ({
   type: types.DELETE_MOVIE,
 });
 
+const movieAdded = () => ({
+  type: types.ADD_MOVIE,
+});
+
 export const loadMovies = () => {
   return function (dispatch) {
     axios
@@ -42,6 +46,18 @@ export const deleteMovie = (id) => {
       .then((response) => {
         console.log(response);
         dispatch(movieDeleted());
+        dispatch(loadMovies());
+      }).catch((error) => console.log(error));
+  }
+}
+
+export const addMovie = (movie) => {
+  return function (dispatch) {
+    axios
+      .post(`http://localhost:3001/movies`, movie)
+      .then((response) => {
+        console.log(response);
+        dispatch(movieAdded());
         dispatch(loadMovies());
       }).catch((error) => console.log(error));
   }

@@ -25,6 +25,11 @@ const movieReducer = (state = INITIAL_STATE, action) => {
         ...state,
         loading: false,
       };
+    case types.ADD_MOVIE:
+      return {
+        ...state,
+        loading: false,
+      };  
     default:
       return state;
     }
