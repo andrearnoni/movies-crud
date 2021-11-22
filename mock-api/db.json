@@ -1,0 +1,164 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Batman vs Superman",
+      "storyline": "A big battle between Batman and Superman",
+      "image": "https://i.imgur.com/DKZOeP2.jpg",
+      "genre": "Fantasy",
+      "rating": "4.0"
+    },
+    {
+      "id": 2,
+      "title": "Os Vingadores",
+      "storyline": "Avengers save planet earth from Loki, brother of Thor",
+      "image": "https://i.imgur.com/QDnvVmJ.jpg",
+      "genre": "Fantasy",
+      "rating": "4.5"
+    },
+    {
+      "id": 3,
+      "title": "A Guerra do Amanhã",
+      "storyline": "A fight for human survival from the alien invasion",
+      "image": "https://i.imgur.com/bGTQLXs.jpg",
+      "genre": "Action",
+      "rating": "3.5"
+    },
+    {
+      "id": 4,
+      "title": "Matrix Ressurections",
+      "storyline": "Neo back once more in the matrix environment to save humanity",
+      "image": "https://i.imgur.com/Xc6RMUS.jpg",
+      "genre": "Action",
+      "rating": "5.0"
+    },
+    {
+      "id": 5,
+      "title": "John Wick 3",
+      "storyline": "John Wick is angrier than ever, now being hunted by countless assassins",
+      "image": "https://i.imgur.com/sFfuLtp.jpg",
+      "genre": "Action",
+      "rating": "4.0"
+    },
+    {
+      "id": 6,
+      "title": "Et o Extraterrestre",
+      "storyline": "A classic by Steven Spielberg about a very friendly extraterrestrial",
+      "image": "https://i.imgur.com/DpKTVhZ.jpg",
+      "genre": "Sci-Fi",
+      "rating": "4.0"
+    },
+    {
+      "id": 7,
+      "title": "Velozes e Furiosos 10",
+      "storyline": "Toretto is back in charge of faster and faster cars",
+      "image": "https://i.imgur.com/2Xb5Lub.jpg",
+      "genre": "Action",
+      "rating": "3.8"
+    },
+    {
+      "id": 8,
+      "title": "Toy Story",
+      "storyline": "Toys that have life, feelings and do everything when humans aren't around",
+      "image": "https://i.imgur.com/HmU2EkH.jpg",
+      "genre": "Animation",
+      "rating": "4.3"
+    },
+    {
+      "id": 9,
+      "title": "Um Lugar Silencioso 2",
+      "storyline": "When the only alternative you have is to survive or survive silence is necessary",
+      "image": "https://i.imgur.com/lx3068Y.jpg",
+      "genre": "Drama",
+      "rating": "3.0"
+    },
+    {
+      "id": 10,
+      "title": "Venom 2",
+      "storyline": "Venom, the anti-hero, now fights with a deadlier opponent than he realizes",
+      "image": "https://i.imgur.com/if5mbA7.jpg",
+      "genre": "Fantasy",
+      "rating": "5.0"
+    },
+    {
+      "id": 11,
+      "title": "007 - Sem Tempo Para Morrer",
+      "storyline": "007, the secret agent in the service of the British crown on another breathtaking mission",
+      "image": "https://i.imgur.com/yqribHl.jpg",
+      "genre": "Action",
+      "rating": "4.6"
+    },
+    {
+      "id": 12,
+      "title": "A Cabana",
+      "storyline": "When you lose hope and find God to help you, what would you do?",
+      "image": "https://i.imgur.com/dl1zDZc.jpg",
+      "genre": "Drama",
+      "rating": "4.8"
+    },
+    {
+      "id": 13,
+      "title": "O Diabo Veste Prada",
+      "storyline": "If the search for an up-and-coming career brings you a less-than-pleasant boss, you've come to the right place.",
+      "image": "https://i.imgur.com/nY3SwQJ.jpg",
+      "genre": "Drama",
+      "rating": "4.1"
+    },
+    {
+      "id": 14,
+      "title": "Doutor Estranho",
+      "storyline": "Marvel's Super Hero who dominates the world of quantum physics",
+      "image": "https://i.imgur.com/rXYGGS3.jpg",
+      "genre": "Fantasy",
+      "rating": "4.5"
+    },
+    {
+      "id": 15,
+      "title": "O Senhor dos Anéis",
+      "storyline": "The planet in the middle ages depends on the destruction of a single ring",
+      "image": "https://i.imgur.com/DG9xbsl.jpg",
+      "genre": "Fantasy",
+      "rating": "4.7"
+    },
+    {
+      "id": 16,
+      "title": "Harry Potter e a Pedra Filosofal",
+      "storyline": "Harry Potter, a wizard who is driven on countless adventures when he discovers the truth about himself",
+      "image": "https://i.imgur.com/hvfnDWS.jpg",
+      "genre": "Fantasy",
+      "rating": "3.9"
+    },
+    {
+      "id": 17,
+      "title": "Forrest Gump",
+      "storyline": "Storyteller who has been through all sorts of situations. Pleasure, Forrest Gump",
+      "image": "https://i.imgur.com/A25AmtW.jpg",
+      "genre": "Comedy",
+      "rating": "4.0"
+    },
+    {
+      "id": 18,
+      "title": "Tropa de Elite",
+      "storyline": "An elite division of the Rio de Janeiro police that faces any situation",
+      "image": "https://i.imgur.com/UIEZHdN.jpg",
+      "genre": "Action",
+      "rating": "5.0"
+    },
+    {
+      "id": 19,
+      "title": "Sem Limites",
+      "storyline": "What if you took a pill that solved any situation in your life?",
+      "image": "https://i.imgur.com/stagnbF.jpg",
+      "genre": "Action",
+      "rating": "3.3"
+    },
+    {
+      "id": 20,
+      "title": "Coringa",
+      "storyline": "The story of the beginning of this icon is batman's main enemy in comic books",
+      "image": "https://i.imgur.com/5Lc6SQ2.jpg",
+      "genre": "Action",
+      "rating": "4.8"
+    }
+  ]
+}
