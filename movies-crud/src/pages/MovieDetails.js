@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { loadMovie } from '../actions/index';
+import { loadMovie, deleteMovie } from '../actions/index';
 
 function MovieDetails() {
   let dispatch = useDispatch();
@@ -12,6 +12,10 @@ function MovieDetails() {
     dispatch(loadMovie(id));
   }, [dispatch, id]);
 
+  let handleDelete = (id) => {
+    dispatch(deleteMovie(id));
+  }
+
   return (
     <div>
       <div data-testid="movie-details">
@@ -21,8 +25,8 @@ function MovieDetails() {
       <p>{ `Genre: ${movie.genre}` }</p>
       <p>{ `Rating: ${movie.rating}` }</p>
       <Link to={ `/movie/${movie.id}/edit` }>EDITAR</Link>
+      <Link to="/" onClick={ () => handleDelete(movie.id) }>DELETAR</Link>
       <Link to="/">VOLTAR</Link>
-      <Link to="/">DELETAR</Link>
       </div>
     </div>
   );

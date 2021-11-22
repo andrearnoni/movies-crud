@@ -19,7 +19,12 @@ const movieReducer = (state = INITIAL_STATE, action) => {
         ...state,
         movie: action.payload,
         loading: false,
-      };  
+      };
+    case types.DELETE_MOVIE:  
+      return {
+        ...state,
+        loading: false,
+      };
     default:
       return state;
     }
