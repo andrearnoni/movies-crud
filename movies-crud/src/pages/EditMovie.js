@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getSingleMovie, updateMovie } from '../actions';
+import { Button } from 'react-bootstrap';
+import '../styles/EditMovie.css';
 
 function EditMovie() {
   const [error, setError] = useState('');
@@ -48,10 +50,11 @@ function EditMovie() {
   }
 
   return (
-    <div>
-      <form onSubmit={ handleSubmit }>
-        <h2>Edite o filme</h2>
+    <div className="edit-container">
+      <h2>Edite o filme</h2>
+      <form className="edit-form" onSubmit={ handleSubmit }>
         { error && <p>{ error }</p> }
+        <h5 className="edit-title">Caminho da imagem:</h5>
         <input
           id="movie_image"
           name="image"
@@ -60,6 +63,7 @@ function EditMovie() {
           label="Movie Image"
           onChange={ handleChange }
         />
+        <h5 className="edit-title">Title:</h5>
         <input
           id="movie_title"
           name="title"
@@ -68,6 +72,7 @@ function EditMovie() {
           label="Movie Title"
           onChange={ handleChange }
         />
+        <h5 className="edit-title">Sinopse:</h5>
         <input
           id="movie_storyline"
           name="storyline"
@@ -76,6 +81,7 @@ function EditMovie() {
           label="Movie StoryLine"
           onChange={ handleChange }
         />
+        <h5 className="edit-title">Gênero:</h5>
         <input
           id="movie_genre"
           name="genre"
@@ -84,6 +90,7 @@ function EditMovie() {
           label="Movie Genre"
           onChange={ handleChange }
         />
+        <h5 className="edit-title">Rating:</h5>
         <input
           id="movie_rating"
           name="rating"
@@ -92,16 +99,20 @@ function EditMovie() {
           label="Movie Rating"
           onChange={ handleChange }
         />
-        <button
-          type="submit"
-        >
-        EDITAR
-        </button>
-        <button
-          onClick={ () => history.push('/') }
-        >
-        VOLTAR
-        </button>
+        <div className="edit-btn-container">
+          <Button
+            className="edit-btn1"
+            type="submit"
+          >
+          EDITAR
+          </Button>
+          <Button
+            className="edit-btn2"
+            onClick={ () => history.push('/') }
+          >
+          VOLTAR
+          </Button>
+        </div>
       </form>
     </div>
   );

@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { loadMovie, deleteMovie } from '../actions/index';
+import { Button } from 'react-bootstrap';
+import '../styles/MovieDetails.css';
 
 function MovieDetails() {
   const dispatch = useDispatch();
@@ -17,16 +19,24 @@ function MovieDetails() {
   }
 
   return (
-    <div>
-      <div data-testid="movie-details">
-        <img alt="Movie Cover" src={ movie.image } />
-        <p>{ `Title: ${movie.title}` }</p>
-        <p>{ `Storyline: ${movie.storyline}` }</p>
-        <p>{ `Genre: ${movie.genre}` }</p>
+    <div className="details-container">
+      <div className="details-sub-container">
+        <img className="details-img" alt="Movie Cover" src={ movie.image } />
+        <p>{ `Título: ${movie.title}` }</p>
+        <p>{ `Sinopse: ${movie.storyline}` }</p>
+        <p>{ `Genero: ${movie.genre}` }</p>
         <p>{ `Rating: ${movie.rating}` }</p>
-        <Link to={ `/movie/${movie.id}/edit` }>EDITAR</Link>
-        <Link to="/" onClick={ () => handleDelete(movie.id) }>DELETAR</Link>
-        <Link to="/">VOLTAR</Link>
+        <div>
+          <Link to={ `/movie/${movie.id}/edit` }>
+            <Button className="details-btn">EDITAR</Button>
+          </Link>
+          <Link to="/" onClick={ () => handleDelete(movie.id) }>
+            <Button className="details-btn-delete" variant="danger">DELETAR</Button>
+          </Link>
+          <Link to="/">
+            <Button className="details-btn">VOLTAR</Button>
+          </Link>
+        </div>
       </div>
     </div>
   );

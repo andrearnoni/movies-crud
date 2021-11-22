@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Batman vs Superman",
-      "storyline": "A big battle between Batman and Superman",
+      "storyline": "Uma grande batalha entre Batman e Superman",
       "image": "https://i.imgur.com/DKZOeP2.jpg",
       "genre": "Fantasy",
       "rating": "4.0"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "Os Vingadores",
-      "storyline": "Avengers save planet earth from Loki, brother of Thor",
+      "storyline": "Os vingadores salvam o planeta Terra de Loki, irmão de Thor",
       "image": "https://i.imgur.com/QDnvVmJ.jpg",
       "genre": "Fantasy",
       "rating": "4.5"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "title": "A Guerra do Amanhã",
-      "storyline": "A fight for human survival from the alien invasion",
+      "storyline": "Uma luta pela sobrevivência humana da invasão alienígena",
       "image": "https://i.imgur.com/bGTQLXs.jpg",
       "genre": "Action",
       "rating": "3.5"
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "title": "Matrix Ressurections",
-      "storyline": "Neo back once more in the matrix environment to save humanity",
+      "storyline": "Neo volta mais uma vez ao ambiente de matrix para salvar a humanidade",
       "image": "https://i.imgur.com/Xc6RMUS.jpg",
       "genre": "Action",
       "rating": "5.0"
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "title": "John Wick 3",
-      "storyline": "John Wick is angrier than ever, now being hunted by countless assassins",
+      "storyline": "John Wick está mais furioso do que nunca, agora sendo caçado por incontáveis ​​assassinos",
       "image": "https://i.imgur.com/sFfuLtp.jpg",
       "genre": "Action",
       "rating": "4.0"
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "title": "Et o Extraterrestre",
-      "storyline": "A classic by Steven Spielberg about a very friendly extraterrestrial",
+      "storyline": "Um clássico de Steven Spielberg sobre um extraterrestre muito amigável",
       "image": "https://i.imgur.com/DpKTVhZ.jpg",
       "genre": "Sci-Fi",
       "rating": "4.0"
@@ -51,7 +51,7 @@
     {
       "id": 7,
       "title": "Velozes e Furiosos 10",
-      "storyline": "Toretto is back in charge of faster and faster cars",
+      "storyline": "Toretto está de volta ao comando de carros cada vez mais rápidos",
       "image": "https://i.imgur.com/2Xb5Lub.jpg",
       "genre": "Action",
       "rating": "3.8"
@@ -59,7 +59,7 @@
     {
       "id": 8,
       "title": "Toy Story",
-      "storyline": "Toys that have life, feelings and do everything when humans aren't around",
+      "storyline": "Brinquedos que têm vida, sentimentos e fazem tudo quando os humanos não estão por perto",
       "image": "https://i.imgur.com/HmU2EkH.jpg",
       "genre": "Animation",
       "rating": "4.3"
@@ -67,7 +67,7 @@
     {
       "id": 9,
       "title": "Um Lugar Silencioso 2",
-      "storyline": "When the only alternative you have is to survive or survive silence is necessary",
+      "storyline": "Quando a única alternativa que você tem é sobreviver ou sobreviver, o silêncio é necessário",
       "image": "https://i.imgur.com/lx3068Y.jpg",
       "genre": "Drama",
       "rating": "3.0"
@@ -75,7 +75,7 @@
     {
       "id": 10,
       "title": "Venom 2",
-      "storyline": "Venom, the anti-hero, now fights with a deadlier opponent than he realizes",
+      "storyline": "Venom, o anti-herói, agora luta com um oponente mais mortal do que ele imagina",
       "image": "https://i.imgur.com/if5mbA7.jpg",
       "genre": "Fantasy",
       "rating": "5.0"
@@ -83,7 +83,7 @@
     {
       "id": 11,
       "title": "007 - Sem Tempo Para Morrer",
-      "storyline": "007, the secret agent in the service of the British crown on another breathtaking mission",
+      "storyline": "007, o agente secreto a serviço da coroa britânica em outra missão de tirar o fôlego",
       "image": "https://i.imgur.com/yqribHl.jpg",
       "genre": "Action",
       "rating": "4.6"
@@ -91,7 +91,7 @@
     {
       "id": 12,
       "title": "A Cabana",
-      "storyline": "When you lose hope and find God to help you, what would you do?",
+      "storyline": "Quando você perde a esperança e encontra Deus para ajudá-lo, o que você faria?",
       "image": "https://i.imgur.com/dl1zDZc.jpg",
       "genre": "Drama",
       "rating": "4.8"
@@ -99,7 +99,7 @@
     {
       "id": 13,
       "title": "O Diabo Veste Prada",
-      "storyline": "If the search for an up-and-coming career brings you a less-than-pleasant boss, you've come to the right place.",
+      "storyline": "Se a busca por uma carreira promissora traz para você um chefe nada agradável, você veio ao lugar certo.",
       "image": "https://i.imgur.com/nY3SwQJ.jpg",
       "genre": "Drama",
       "rating": "4.1"
@@ -107,7 +107,7 @@
     {
       "id": 14,
       "title": "Doutor Estranho",
-      "storyline": "Marvel's Super Hero who dominates the world of quantum physics",
+      "storyline": "Super-herói da Marvel que domina o mundo da física quântica",
       "image": "https://i.imgur.com/rXYGGS3.jpg",
       "genre": "Fantasy",
       "rating": "4.5"
@@ -115,7 +115,7 @@
     {
       "id": 15,
       "title": "O Senhor dos Anéis",
-      "storyline": "The planet in the middle ages depends on the destruction of a single ring",
+      "storyline": "O planeta na Idade Média depende da destruição de um único anel",
       "image": "https://i.imgur.com/DG9xbsl.jpg",
       "genre": "Fantasy",
       "rating": "4.7"
@@ -123,7 +123,7 @@
     {
       "id": 16,
       "title": "Harry Potter e a Pedra Filosofal",
-      "storyline": "Harry Potter, a wizard who is driven on countless adventures when he discovers the truth about himself",
+      "storyline": "Harry Potter, um bruxo que vive inúmeras aventuras quando descobre a verdade sobre si mesmo",
       "image": "https://i.imgur.com/hvfnDWS.jpg",
       "genre": "Fantasy",
       "rating": "3.9"
@@ -131,7 +131,7 @@
     {
       "id": 17,
       "title": "Forrest Gump",
-      "storyline": "Storyteller who has been through all sorts of situations. Pleasure, Forrest Gump",
+      "storyline": "Contador de histórias que já passou por todos os tipos de situações. Prazer, Forrest Gump",
       "image": "https://i.imgur.com/A25AmtW.jpg",
       "genre": "Comedy",
       "rating": "4.0"
@@ -139,7 +139,7 @@
     {
       "id": 18,
       "title": "Tropa de Elite",
-      "storyline": "An elite division of the Rio de Janeiro police that faces any situation",
+      "storyline": "Uma divisão de elite da polícia do Rio de Janeiro que enfrenta qualquer situação",
       "image": "https://i.imgur.com/UIEZHdN.jpg",
       "genre": "Action",
       "rating": "5.0"
@@ -147,7 +147,7 @@
     {
       "id": 19,
       "title": "Sem Limites",
-      "storyline": "What if you took a pill that solved any situation in your life?",
+      "storyline": "E se você tomasse uma pílula que resolvesse qualquer situação em sua vida?",
       "image": "https://i.imgur.com/stagnbF.jpg",
       "genre": "Action",
       "rating": "3.3"
@@ -155,7 +155,7 @@
     {
       "id": 20,
       "title": "Coringa",
-      "storyline": "The story of the beginning of this icon is batman's main enemy in comic books",
+      "storyline": "A história do início deste ícone, o principal inimigo do batman nos quadrinhos",
       "image": "https://i.imgur.com/5Lc6SQ2.jpg",
       "genre": "Action",
       "rating": "4.8"

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom'; 
 import { useDispatch, useSelector } from 'react-redux';
 import { loadMovies } from '../actions/index';
@@ -14,7 +15,7 @@ function Home() {
 
   return (
     <div className="movie-container">
-      <h1 className="movie-title">Klever Flix</h1>
+      <h1 className="movie-title">Movies Flix</h1>
       <div className="movie-list">
         {movies && movies.map((movie, index) => (
           <div key={ index } className="movie-card">
@@ -27,7 +28,9 @@ function Home() {
           </div>
         ))}
       </div>
-      <Link className="linklist" to="/movie/new">ADICIONAR CARD</Link>
+      <Link className="linklist" to="/movie/new">
+        <Button className="home-btn">ADICIONAR CARD</Button>
+      </Link>
     </div>
   );
 }

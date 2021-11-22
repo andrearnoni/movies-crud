@@ -1,6 +1,16 @@
+.movie-container {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+}
+
 .movie-list {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
   padding: 48px 30px;
 }
 
@@ -14,8 +24,9 @@
 }
 
 .linklist {
-  color: blue;
-  margin: 40px;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 30px;
   text-decoration: none;
 }
 
@@ -26,7 +37,7 @@
 .movie-card {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 3px;
+  border-radius: 15px;
   height: 410px;
   margin: 5px;
   overflow: hidden;
@@ -66,4 +77,9 @@
 
 .movie-card a:hover {
   opacity: 0.6;
+}
+
+.home-btn {
+  background-color: #0000FF;
+  margin-bottom: 30px;
 }

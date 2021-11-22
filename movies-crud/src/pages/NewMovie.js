@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addMovie } from '../actions';
+import { Button } from 'react-bootstrap';
+import '../styles/NewMovie.css'
 
 function NewMovie() {
   const [error, setError] = useState('');
@@ -36,18 +38,18 @@ function NewMovie() {
   }
 
   return (
-    <div>
-      <form onSubmit={ handleSubmit }>
-        <h2>Adicione um novo filme</h2>
+    <div className="new-container">
+      <h2>Adicione um novo filme</h2>
+      <form className="new-form" onSubmit={ handleSubmit }>
         { error && <p>{ error }</p> }
+        <h5 className="new-title">Caminho da imagem:</h5>
         <input
-          id="movie_image"
           name="image"
           type="text"
           value={ image }
-          label="Movie Image"
           onChange={ handleChange }
         />
+        <h5 className="new-title">Title:</h5>
         <input
           id="movie_title"
           name="title"
@@ -56,6 +58,7 @@ function NewMovie() {
           label="Movie Title"
           onChange={ handleChange }
         />
+        <h5 className="new-title">Sinopse:</h5>
         <input
           id="movie_storyline"
           name="storyline"
@@ -64,6 +67,7 @@ function NewMovie() {
           label="Movie StoryLine"
           onChange={ handleChange }
         />
+        <h5 className="new-title">Gênero:</h5>
         <input
           id="movie_genre"
           name="genre"
@@ -72,6 +76,7 @@ function NewMovie() {
           label="Movie Genre"
           onChange={ handleChange }
         />
+        <h5 className="new-title">Rating:</h5>
         <input
           id="movie_rating"
           name="rating"
@@ -80,16 +85,20 @@ function NewMovie() {
           label="Movie Rating"
           onChange={ handleChange }
         />
-        <button
-          type="submit"
-        >
-        ADICIONAR
-        </button>
-        <button
-          onClick={ () => history.push('/') }
-        >
-        VOLTAR
-        </button>
+        <div className="new-btn-container">
+          <Button
+            type="submit"
+            className="new-btn1"
+          >
+          ADICIONAR
+          </Button>
+          <Button
+            className="new-btn2"
+            onClick={ () => history.push('/') }
+          >
+          VOLTAR
+          </Button>
+        </div>
       </form>
     </div>
   );
