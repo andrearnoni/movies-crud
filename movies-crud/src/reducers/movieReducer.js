@@ -29,7 +29,18 @@ const movieReducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         loading: false,
-      };  
+      };
+    case types.GET_SINGLE_MOVIE:
+      return {
+        ...state,
+        movie: action.payload,
+        loading: false,
+      }
+    case types.UPDATE_MOVIE:
+      return {
+        ...state,
+        loading: false,
+      }  
     default:
       return state;
     }

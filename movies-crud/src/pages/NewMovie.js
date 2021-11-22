@@ -38,7 +38,7 @@ function NewMovie() {
   return (
     <div>
       <form onSubmit={ handleSubmit }>
-        <h2>Add a new movie</h2>
+        <h2>Adicione um novo filme</h2>
         { error && <p>{ error }</p> }
         <input
           id="movie_image"

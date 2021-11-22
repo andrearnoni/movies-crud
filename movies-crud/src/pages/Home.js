@@ -5,7 +5,7 @@ import { loadMovies } from '../actions/index';
 import '../styles/Home.css';
 
 function Home() {
-  let dispatch = useDispatch();
+  const dispatch = useDispatch();
   const { movies } = useSelector(state => state.data);
 
   useEffect(() => {
